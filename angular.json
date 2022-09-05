@@ -26,8 +26,16 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css"
+            "apps": [
+              {
+                "root": "src",
+                "outDir": "dist",
+                "styles": [
+                    "styles.css",
+                    "../node_modules/bootstrap/dist/css/bootstrap.css",
+                    "../node_modules/font-awesome/css/font-awesome.css"
+                ]
+            }
             ],
             "scripts": []
           },
